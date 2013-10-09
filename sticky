@@ -90,7 +90,7 @@ def main():
 
     # List pastes
     parser.add_argument("-l", "--list", help="list available pastes",
-                        metavar="PAGE", type=int, nargs='?',const=-1)
+                        metavar="PAGE", type=int, nargs='?', const=-1)
 
     # Generic arguments
     parser.add_argument("-P", "--password", help="password for protected paste");
